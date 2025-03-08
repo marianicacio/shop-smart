@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #063940;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 90%;
+    gap: 25px;
+    margin-top: 41px;
+}
+
+header button:first-child {
+    width: 91px;
+    height: 34px;
+    color: #063940;
+    font-size: 18px;
+    font-family: "Literata", serif;
+    background: #DEFDDB;
+    border: none;
+    border-radius: 10px;
+}
+
+header button:last-child {
+    width: 149px;
+    height: 34px;
+    font-family: "Literata", serif;
+    background: #3E838C;
+    color: #EFFEED;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
