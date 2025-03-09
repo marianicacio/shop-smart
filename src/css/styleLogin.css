@@ -52,4 +52,8 @@ main section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #DEFDDB;
+    width: 394px;
+    height: 420px;
+    border-radius: 15px;
 }
