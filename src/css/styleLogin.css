@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     align-items: center;
@@ -40,20 +46,20 @@ header button:last-child {
     border-radius: 10px;
 }
 
-main {
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-main section {
+.mainContainer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    flex-direction: column;
     background-color: #DEFDDB;
+    border-radius: 15px;
     width: 394px;
     height: 420px;
-    border-radius: 15px;
 }
