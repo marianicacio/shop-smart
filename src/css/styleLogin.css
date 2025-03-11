@@ -30,9 +30,18 @@ header button:first-child {
     color: #063940;
     font-size: 18px;
     font-family: "Literata", serif;
-    background: #DEFDDB;
+    background-color: #DEFDDB;
     border: none;
     border-radius: 10px;
+}
+
+header button:first-child:hover {
+    background-color: #accfa9;
+    text-decoration: underline; 
+    transition-delay: 5s;
+    transition: 1s;
+    width: 91px;
+    height: 34px;
 }
 
 header button:last-child {
