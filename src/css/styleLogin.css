@@ -64,11 +64,43 @@ header button:last-child {
 
 .mainContainer {
     display: flex;
-    justify-content: start;
+    justify-content: center;
+    gap: 48px;
     align-items: center;
     flex-direction: column;
     background-color: #DEFDDB;
     border-radius: 15px;
     width: 394px;
     height: 420px;
+}
+
+.mainContainer article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer h1 {
+    font-size: 32px;
+}
+
+.mainContainer p {
+    font-size: 16px;
+}
+
+.mainContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.mainContainer form input {
+    width: 293px;
+    height: 46px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 13px;
+    background-color: #8EBDB6;
+    color: #063940;
 }
