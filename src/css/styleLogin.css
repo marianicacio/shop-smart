@@ -32,13 +32,11 @@ header button:first-child {
     color: #063940;
     font-size: 18px;
     font-family: "Literata", serif;
-    background: #DEFDDB;
+    background-color: #DEFDDB;
     border: none;
     border-radius: 10px;
 }
 
-<<<<<<< Updated upstream
-=======
 header button:first-child:hover {
     background-color: #accfa9;
     transition-delay: 5s;
@@ -47,7 +45,6 @@ header button:first-child:hover {
     height: 34px;
 }
 
->>>>>>> Stashed changes
 header button:last-child {
     width: 149px;
     height: 34px;
