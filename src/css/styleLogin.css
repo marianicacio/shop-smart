@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     background-color: #063940;
     width: 100%;
+    font-family: "Literata", serif;
 }
 
 header {
@@ -27,6 +28,7 @@ header {
 header button:first-child {
     width: 91px;
     height: 34px;
+    text-align: center;
     color: #063940;
     font-size: 18px;
     font-family: "Literata", serif;
@@ -37,7 +39,6 @@ header button:first-child {
 
 header button:first-child:hover {
     background-color: #accfa9;
-    text-decoration: underline; 
     transition-delay: 5s;
     transition: 1s;
     width: 91px;
@@ -53,6 +54,15 @@ header button:last-child {
     font-size: 18px;
     border: none;
     border-radius: 10px;
+}
+
+header button:last-child:hover {
+    background-color: #accfa9;
+    color: #063940;
+    transition-delay: 5s;
+    transition: 1s;
+    width: 149px;
+    height: 34px;
 }
 
 .main {
@@ -83,6 +93,8 @@ header button:last-child {
 
 .mainContainer h1 {
     font-size: 32px;
+    font-family: 'Literata';
+    font-weight: 400;
 }
 
 .mainContainer p {
@@ -103,4 +115,19 @@ header button:last-child {
     padding-left: 13px;
     background-color: #8EBDB6;
     color: #063940;
+}
+
+.mainContainer form input::placeholder {
+    color: #063940;
+}
+
+.mainContainer button {
+    width: 132px;
+    height: 46px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Literata';
+    background-color: #195E63;
+    color: white;
+    font-size: 20px;
 }
