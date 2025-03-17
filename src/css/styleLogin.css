@@ -131,3 +131,16 @@ header button:last-child:hover {
     color: white;
     font-size: 20px;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 93%;
+}
+
+footer button {
+    width: 201px;
+    border-radius: 10px;
+    height: 46px;
+}
