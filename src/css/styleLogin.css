@@ -61,7 +61,7 @@ header button:last-child:hover {
     color: #063940;
     transition-delay: 5s;
     transition: 1s;
-    width: 149px;
+    width: 165px;
     height: 34px;
 }
 
@@ -143,4 +143,14 @@ footer button {
     width: 201px;
     border-radius: 10px;
     height: 46px;
+    border: none;
+    margin-top: 176px;
+    align-items: center;
+    font-family: 'Literata';
+    font-size: 20px;
+    color: #063940;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    background-color: #DEFDDB;
 }
