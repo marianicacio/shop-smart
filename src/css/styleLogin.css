@@ -39,7 +39,7 @@ header button:first-child:hover {
 }
 
 header button:last-child {
-    width: 149px;
+    width: 145px;
     height: 34px;
     font-family: "Literata", serif;
     background: #3E838C;
@@ -47,6 +47,7 @@ header button:last-child {
     font-size: 18px;
     border: none;
     border-radius: 10px;
+    transition: 1.5s;
 }
 
 main {
