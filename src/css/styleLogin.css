@@ -25,6 +25,11 @@ header {
     margin-top: 41px;
 }
 
+header button {
+    transition: all ease 2s;
+    cursor: pointer;
+}
+
 header button:first-child {
     width: 91px;
     height: 34px;
@@ -38,8 +43,7 @@ header button:first-child {
 }
 
 header button:first-child:hover {
-    background-color: #accfa9;
-    transition-delay: 5s;
+    background-color: #c7f0c4;
     transition: 1s;
     width: 95px;
     height: 34px;
@@ -60,7 +64,6 @@ header button:last-child {
 header button:last-child:hover {
     background-color: #accfa9;
     color: #063940;
-    transition-delay: 5s;
     transition: 1s;
     width: 165px;
     height: 34px;
@@ -118,6 +121,11 @@ header button:last-child:hover {
     color: #063940;
 }
 
+.mainContainer form input:focus {
+    border: #008846 2px solid;
+    outline: none;
+}
+
 .mainContainer form input::placeholder {
     color: #063940;
 }
@@ -131,6 +139,15 @@ header button:last-child:hover {
     background-color: #195E63;
     color: white;
     font-size: 20px;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+
+.mainContainer button:hover {
+    background-color: #173c33;
+    transition: 1s;
+    width: 132px;
+    height: 46px;
 }
 
 footer {
@@ -138,6 +155,7 @@ footer {
     align-items: center;
     justify-content: start;
     width: 93%;
+    padding-bottom: 45px;
 }
 
 footer button {
@@ -154,4 +172,14 @@ footer button {
     justify-content: center;
     gap: 8px;
     background-color: #DEFDDB;
+    transition: all ease 1s;
+}
+
+footer button:hover {
+    background-color: #36676d;
+    color: #accfa9;
+    transition: 1s;
+    transform: scale(1.02);
+    width: 201px;
+    height: 46px;
 }
