@@ -24,7 +24,7 @@ main {
 .mainContainer {
     display: flex;
     justify-content: center;
-    gap: 48px;
+    gap: 28px;
     align-items: center;
     flex-direction: column;
     background-color: #DEFDDB;
