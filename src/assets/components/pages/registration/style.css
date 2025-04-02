@@ -94,3 +94,20 @@ main {
     width: 132px;
     height: 46px;
 }
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 0px 82px;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    color: #DEFDDB;
+    text-decoration: none;
+}
