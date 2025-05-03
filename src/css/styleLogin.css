@@ -158,6 +158,11 @@ footer {
     padding-bottom: 45px;
 }
 
+footer a {
+    text-decoration: none;
+    color: #063940;
+}
+
 footer button {
     width: 201px;
     border-radius: 10px;
